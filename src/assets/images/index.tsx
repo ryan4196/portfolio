@@ -1,0 +1,21 @@
+export { default as IcLang } from './common/IcLang.svg?react';
+// export { ReactComponent as IcTwitterX } from './common/IcTwitterX.svg';
+// export { ReactComponent as IcTelegram } from './common/IcTelegram.svg';
+// export { ReactComponent as IcYoutube } from './common/IcYoutube.svg';
+// export { ReactComponent as IcWebSite } from './common/IcWebSite.svg';
+// export { ReactComponent as IcWebSiteWhite } from './common/IcWebSiteWhite.svg';
+// export { ReactComponent as NotFoundImage } from './common/NotFoundImage.svg';
+// export { ReactComponent as IcTextCoppy } from './common/IcTextCoppy.svg';
+// export { ReactComponent as IcSort } from './common/IcSort.svg';
+// export { ReactComponent as IcCheckedOn1 } from './common/IcCheckedOn1.svg';
+// export { ReactComponent as IcCheckoff } from './common/IcCheckoff.svg';
+// export { ReactComponent as IcWasteBasket } from './common/IcWasteBasket.svg';
+// export { ReactComponent as IcUploadImg } from './common/IcUploadImg.svg';
+// export { ReactComponent as IcStar } from './common/IcStar.svg';
+// export { default as IcKingOfTheSpace } from './common/IcKingOfTheSpace.png';
+// export { ReactComponent as IcWalletInfoModal } from './common/IcWalletInfoModal.svg';
+// export { ReactComponent as IcTrophy } from './common/IcTrophy.svg';
+// export { ReactComponent as IcSucced } from './common/IcSucced.svg';
+// export { ReactComponent as IcFailed } from './common/IcFailed.svg';
+// export { ReactComponent as IcRefresh1 } from './common/IcRefresh1.svg';
+
