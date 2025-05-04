@@ -8,7 +8,7 @@ interface ProjectCardProps {
   imageSrc?: string;
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, demoLink, repoLink, imageSrc }) => (
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, demoLink, repoLink, imageSrc }) => (
   <div className="bg-white rounded-lg p-4 shadow hover:shadow-lg transition">
     {imageSrc && <img src={imageSrc} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />}
     <h3 className="text-xl font-semibold text-[#101b38]">{title}</h3>
@@ -19,3 +19,5 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, de
     </div>
   </div>
 );
+
+export default ProjectCard;

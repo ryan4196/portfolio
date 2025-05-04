@@ -1,0 +1,96 @@
+.language_change_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+.language_change_txt_label {
+  /* Caption */
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+
+  /* PalaColorSystem/White 3 */
+  color: #f2f4f8;
+}
+.language_change_btn_active {
+  /* PalaColorSystem/Purple 4 */
+  background: #92a3f9;
+  box-shadow: inset -1px 0px 0px #111111;
+  padding: 0.5rem;
+  /* Caption */
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* PalaColorSystem/Black 1 */
+  color: #111111;
+  cursor: pointer;
+}
+.language_change_btn_not_active {
+  /* PalaColorSystem/Purple 4 */
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: inset -1px 0px 0px #111111;
+
+  padding: 0.5rem;
+  /* Caption */
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* PalaColorSystem/White 1 */
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.language_change_btn_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* PalaColorSystem/BWP-Blue 5 */
+  background: #262c36;
+  /* PalaColorSystem/Black 1 */
+  border: 1px solid #111111;
+  border-radius: 4px !important;
+}
+.token_price_chip {
+  border: none !important;
+}
+.left_menu_txt {
+  /* Subtitle 1 */
+
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 20px;
+
+  color: rgba(255, 255, 255, 0.8);
+}

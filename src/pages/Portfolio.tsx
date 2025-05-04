@@ -1,7 +1,7 @@
 import React from 'react';
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
-import { ProjectCard } from '../components/ProjectCard';
+import HomePage from 'pages/HomePage';
+import Footer from 'components/Footer';
+import ProjectCard from 'components/ProjectCard';
 import { useTranslation } from 'react-i18next';
 
 const projects = [
@@ -14,11 +14,11 @@ const projects = [
   },
 ];
 
-export const Portfolio: React.FC = () => {
+const Portfolio: React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col min-h-screen text-white">
-      <Header />
+      <HomePage />
       <main className="flex-grow container mx-auto p-8">
         <h2 className="text-4xl font-bold mb-6">{t('projects')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -31,3 +31,5 @@ export const Portfolio: React.FC = () => {
     </div>
   );
 };
+
+export default Portfolio;

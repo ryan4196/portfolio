@@ -15,7 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client", "jest", "node"]
+    "types": ["vite/client", "jest", "node"],
+    "baseUrl": "./src",
+    "paths": {
+      "assets/*": ["assets/*"]
+    },
   },
   "include": ["src"]
 }

@@ -1,0 +1,13 @@
+{
+  "Common": {
+    "Home": "Home",
+    "Portfolio": "Portfolio",
+    "Blog": "Blog",
+    "Welcome": "Welcome, I'm {{name}}",
+    "Subtitle": "Blockchain Frontend Developer specializing in React & Web3 UI/UX.",
+    "View Portfolio": "View Portfolio",
+    "Read Blog": "Read Blog",
+    "My Projects": "My Projects",
+    "Contact": "Contact"
+  }
+}
