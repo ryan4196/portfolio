@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col min-h-screen text-white">
-      <HomePage />
+      {/* <HomePage /> */}
       <main className="flex-grow container mx-auto p-8">
         <h2 className="text-4xl font-bold mb-6">{t('projects')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -27,7 +27,7 @@ const Portfolio: React.FC = () => {
           ))}
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

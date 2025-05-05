@@ -3,6 +3,7 @@ import { useTranslationContext } from 'context/TranslationContext';
 import TopBar from 'components/TopBar';
 import Footer from 'components/Footer';
 import { useTranslation } from 'react-i18next';
+import Portfolio from './Portfolio';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
           <a href="/blog" className="px-6 py-3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300">{t('Common.Read Blog')}</a>
         </div>
       </main>
+      <Portfolio />
       <Footer />
     </div>
   );

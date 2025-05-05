@@ -22,14 +22,18 @@ const TopBar: React.FC = () => {
   return (
     <header className="flex justify-between items-center p-4 bg-[hsla(0,0%,100%,.059)]">
       <h1 className="text-2xl font-bold text-white"><Link to="/">임관혁</Link></h1>
-      <nav className="space-x-4">
-        <Link to="/" className="text-white hover:underline">{t('home')}</Link>
-        <Link to="/portfolio" className="text-white hover:underline">{t('portfolio')}</Link>
-        <Link to="/blog" className="text-white hover:underline">{t('blog')}</Link>
-        <div style={{ display: 'flex', alignItems: 'center', paddingRight: '0.3rem' }} onClick={changeLangBtn}>
-          <IcLang style={{ paddingRight: '0.5rem' }} />
+      <nav className="flex gap-14">
+        <div className="flex space-x-8">
+          <Link to="/" className="text-white hover:underline">{t('home')}</Link>
+          <Link to="/portfolio" className="text-white hover:underline">{t('portfolio')}</Link>
+          <Link to="/blog" className="text-white hover:underline">{t('blog')}</Link>
+        </div>
+        <div className="flex justify-center items-center" onClick={changeLangBtn}>
+          <div className="mr-2">
+            <IcLang />
+          </div>
           <motion.div
-            className="font-[<Pretendard>], font-normal, font-medium, text-<12rem>/130%, flex, text-center, text-[#f2f4f8]"
+            className="font-[<Pretendard>] font-normal, font-medium text-<12rem>/130% flex text-center text-[#f2f4f8]"
             animate={{ color: language === 'ko-KR' ? '#68686C' : '#E0E0EA', x: language === 'ko-KR' ? 37 : -3 }}
             transition={{ type: "spring" }}
             style={{ fontSize: '1rem' }}
@@ -46,7 +50,7 @@ const TopBar: React.FC = () => {
             KO
           </motion.div>
         </div>
-        <button onClick={toggleLang} className="ml-4 text-white">{i18n.language === 'en' ? 'KO' : 'EN'}</button>
+        {/* <button onClick={toggleLang} className="ml-4 text-white">{i18n.language === 'en' ? 'KO' : 'EN'}</button> */}
       </nav>
     </header>
   );
