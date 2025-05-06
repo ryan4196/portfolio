@@ -21,9 +21,15 @@ const TopBar: React.FC = () => {
 
   return (
     <header className="flex justify-between items-center p-4 bg-[hsla(0,0%,100%,.059)]">
-      <h1 className="text-2xl font-bold text-white"><Link to="/">임관혁</Link></h1>
+      <h1 className="text-3xl font-dung font-bold text-white tracking-widest">
+        <Link to="/">
+          <span className="text-[#51c4d3]">ㅇ</span>
+          <span className="text-[#ffe66d]">ㄱ</span>
+          <span className="text-[#51c4d3]">ㅎ</span>
+        </Link>
+      </h1>
       <nav className="flex gap-14">
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 text-1xl">
           <Link to="/" className="text-white hover:underline">{t('home')}</Link>
           <Link to="/portfolio" className="text-white hover:underline">{t('portfolio')}</Link>
           <Link to="/blog" className="text-white hover:underline">{t('blog')}</Link>
