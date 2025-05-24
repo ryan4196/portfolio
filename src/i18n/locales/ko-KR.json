@@ -2,6 +2,7 @@
   "Common": {
     "Home": "홈",
     "Portfolio": "포트폴리오",
+    "Projects": "프로젝트",
     "Blog": "블로그",
     "Welcome": "환영합니다, 저는 {{name}} 입니다.",
     "Subtitle": "React 및 Web3 UI/UX 전문 블록체인 프론트엔드 개발자.",
