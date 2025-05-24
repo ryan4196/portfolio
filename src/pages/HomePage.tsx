@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen text-white">
       <TopBar />
-      <main className="flex-grow container mx-auto p-8 text-center">
+      <main className="flex-grow container mx-auto p-8 text-center mt-20">
         <h2 className="text-5xl font-bold mb-4">{t('Common.Welcome', { name: '임관혁' })}</h2>
         <p className="text-xl mb-6">{t('Common.Subtitle')}</p>
         <div className="space-x-4">
