@@ -13,9 +13,25 @@
 }
 
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
 
+@layer components {
+  .btn-resume {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap
+           text-sm font-medium
+           bg-background border border-input-border hover:bg-accent 
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+           disabled:opacity-50 disabled:pointer-events-none
+           h-9 rounded-md px-3
+           transition-colors;
+  }
+
+  /* 버튼 안의 SVG 아이콘 전용 스타일 */
+  .btn-resume svg {
+    @apply pointer-events-none w-4 h-4 shrink-0;
+  }
+}
 
 html, body, #root {
   height: 100%;
